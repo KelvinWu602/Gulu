@@ -1,0 +1,15 @@
+//An Input Output Program writen in Gulu
+
+import input
+
+void main(){
+    print("Hello, user")
+    string name = io.getLine()
+    num weight = io.getNum()
+    num height = io.getNum()
+
+    num BMI = weight^2 / height
+
+    print("Your BMI is" + BMI)
+}
+
